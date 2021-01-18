@@ -1,0 +1,7 @@
+param: U_pv := 0.05;
+param: C_grid := 0.15;
+param: C_EV := 0.06;
+param: P_demanda_total := 1;
+param: P_max_PV := 4;
+param: P_max_EV := 3.5;
+param: P_max_grid := 4.6;
