@@ -34,8 +34,8 @@ Examples of modeling IV curves using a single-diode circuit equivalent model.
 from pvlib import pvsystem, temperature
 import pandas as pd
 import matplotlib.pyplot as plt
-from irradiance import irradiation
-from BBDD import BBDD
+from HEMS_API.irradiance import irradiation
+from HEMS_API.BBDD import BBDD
 
 class PV:
     def __init__(self,num_panels,corrected: int=0, module_name: str='LONGi_Green_Energy_Technology_Co___Ltd__LR6_72PE_360M'):

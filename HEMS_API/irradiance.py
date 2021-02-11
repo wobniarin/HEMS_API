@@ -17,7 +17,7 @@ import pandas as pd
 from matplotlib import pyplot as plt
 from credentials import tilt,azimuth,latitud,longitud
 from datetime import datetime, timedelta
-from BBDD import BBDD
+from HEMS_API.BBDD import BBDD
 
 class irradiation:
     def __init__(self,tilt_inp: int=None, azimuth_inp: int=None):
